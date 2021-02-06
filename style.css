@@ -202,8 +202,8 @@ width:354px;}
 
 @media only screen and (max-width: 600px) {#menu{display:none;}
 
-#kevin{font-size:120px;}
-#buchik{font-size:120px;}
+#kevin{font-size:112px;}
+#buchik{font-size:112px;}
 
 
 html {
@@ -235,7 +235,7 @@ z-index:2;}
     margin-top: -338px;}
 
 
-    #portfolio{   margin-top: 100px;
+    #portfolio{   margin-top: 200px;
         margin-lefT: 1%;}
     
     
@@ -268,13 +268,13 @@ z-index:2;}
                         #chickenhawk{   height: 120px;
                             position: absolute;
                             top: 560px;
-                            left:380px;
+                            left:356px;
                         }
                         
                         #chickenhawk2{   height: 120px;
                             position: absolute;
                             top: 650px;
-                            left:380px;                
+                            left:356px;                
                             display:none;
                             
                         }
