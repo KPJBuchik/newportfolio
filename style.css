@@ -4,6 +4,13 @@ font-family:barlow;
 
 }
 
+html {
+    scroll-behavior: smooth;
+    overflow-y:hidden;
+    overflow-x:hidden;
+
+
+  }
 
 h1{
 font-family:barlow;
@@ -200,7 +207,8 @@ width:354px;}
 .sidebar-body{text-align:initial;}
 
 
-@media only screen and (max-width: 600px) {#menu{display:none;}
+@media only screen and (max-width: 600px) {
+    #menu{display:none;}
 
 #kevin{font-size:104px;}
 #buchik{font-size:104px;}
