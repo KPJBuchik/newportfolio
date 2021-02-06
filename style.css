@@ -209,7 +209,7 @@ width:354px;}
 html {
     scroll-behavior: smooth;
     overflow-y:initial;
-    overflow-x:initial;
+    overflow-x:hidden;
 
 
   }
@@ -265,7 +265,46 @@ z-index:2;}
                         align-items:none;
                         margin-left:1%;}
                         
+                        #chickenhawk{   height: 120px;
+                            position: absolute;
+                            top: 560px;
+                            left:380px;
+                        }
+                        
+                        #chickenhawk2{   height: 120px;
+                            position: absolute;
+                            top: 650px;
+                            left:380px;                
+                            display:none;
+                            
+                        }
 
+                        #sandwich{ 
+                            height: 5%;
+                            margin-left: 84%;
+                            margin-right:20px;
+                            margin-top: -146px;  
+                              cursor:pointer;
+                        }
+
+                        .modal-design{position:fixed;
+                            left:180px;
+                            height:720px;
+                            top:-50px;
+                            background-color:black;
+                            border-left: solid 2px #195757;;
+                            
+                            
+                            
+                            }
+
+                            .side-link{display:grid;
+                                margin:10px;
+                                margin-left:-8px;
+                                font-size:16px;
+                                cursor:pointer;}
+                            .sidebar-body{margin-top:32px}
+                            
 }
 
 
