@@ -202,13 +202,13 @@ width:354px;}
 
 @media only screen and (max-width: 600px) {#menu{display:none;}
 
-#kevin{font-size:112px;}
-#buchik{font-size:112px;}
+#kevin{font-size:104px;}
+#buchik{font-size:104px;}
 
 
 html {
     scroll-behavior: smooth;
-    overflow-y:initial;
+    overflow-y:hidden;
     overflow-x:hidden;
 
 
