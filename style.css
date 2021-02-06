@@ -32,11 +32,14 @@ top: -400px;
 left: 600px;}
 
 #sandwich{ 
+    position:fixed;
     height: 5%;
-    margin-left: 94%;
-    margin-right:20px;
-    margin-top: -146px;  
-      cursor:pointer;
+    top: 216px;
+    left: 2px;
+    margin-left: 92.5%;
+    margin-right: 10%;
+    margin-top: -200px;
+    cursor: pointer;
 }
 #sandwich:hover{
     opacity:.7
@@ -107,14 +110,14 @@ height:20px;}
 }
 
 #chickenhawk{   height: 160px;
-    position: absolute;
+    position: fixed;
     top: 548px;
     left:1130px;
 }
 
 #chickenhawk2{   height: 160px;
-    position: absolute;
-    top: 650px;
+    position: fixed;
+    top: 548px;
     left:1130px;
     display:none;
     
