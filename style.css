@@ -6,8 +6,8 @@ font-family:barlow;
 
 html {
     scroll-behavior: smooth;
-    overflow-y:hidden;
-    overflow-x:hidden;
+     /* overflow-y:hidden; */
+    overflow-x:hidden; 
 
 
   }
@@ -208,21 +208,29 @@ width:354px;}
 
 
 @media only screen and (max-width: 600px) {
+
+
     #menu{display:none;}
 
-#kevin{font-size:104px;}
-#buchik{font-size:104px;}
+#kevin{font-size:80px;
+display:flex;
+margin-bottom:26px;}
+#buchik{font-size:80px;
+margin-bottom:26px;
+}
 
 
-html {
+/* html {
     scroll-behavior: smooth;
     overflow-y:hidden;
     overflow-x:hidden;
 
 
-  }
+  } */
 
-#job{font-size:32px;;}
+#job{font-size:32px;
+    margin-left:1px;
+}
 
 
 #ribbon{height:100px;
@@ -288,11 +296,14 @@ z-index:2;}
                         }
 
                         #sandwich{ 
-                            height: 5%;
-                            margin-left: 84%;
-                            margin-right:20px;
-                            margin-top: -146px;  
-                              cursor:pointer;
+                            position: fixed;
+                            height: 24px;
+                            top: 216px;
+                            left: 2px;
+                            margin-left: 80%;
+                            margin-right: 20%;
+                            margin-top: -200px;
+                            cursor: pointer;
                         }
 
                         .modal-design{position:fixed;
@@ -312,8 +323,22 @@ z-index:2;}
                                 font-size:16px;
                                 cursor:pointer;}
                             .sidebar-body{margin-top:32px}
+
+
                             
-}
+                                #logo{
+                                        height:86px;
+                                        margin:20px;
+                                        
+                                        
+                                   
+                                    }
+                                #header{margin-bottom:24px;}
+
+                                
+                                }
+                            
+
 
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
