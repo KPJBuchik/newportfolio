@@ -197,8 +197,10 @@ cursor:pointer;}
 
 .modalprojectphoto{height:209px;
 width:354px;
-border-style:solid 6px;;
-border-color:white;}
+border-style:solid;
+border-color:#195757;
+border-width:2px;
+}
 
 #contact{ display: block;
     margin-top: 280px;
