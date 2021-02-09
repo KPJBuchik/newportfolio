@@ -83,3 +83,9 @@ document.getElementById("portfolioEvent").addEventListener("click", function(){s
 
 
 // }
+
+
+//fix project photos
+
+//modal ordering
+//fonts
