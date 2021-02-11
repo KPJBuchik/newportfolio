@@ -18,7 +18,9 @@
     integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
     crossorigin="anonymous"></script>
   <script src="https://kit.fontawesome.com/78f23082a5.js" crossorigin="anonymous"></script>
-  <link rel="stylesheet" href="https://use.typekit.net/vrg4ess.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,600;1,100;1,600&display=swap"
+    rel="stylesheet">
 
 
 
@@ -41,7 +43,8 @@
   <div id="menu">
     <div class="line"></div><a data-bs-toggle="modal" data-bs-target="#exampleModal" class="link">ABOUT</a><a
       data-bs-toggle="modal" data-bs-target="#resumeModal" class="link">RESUME</a><a href="#anchor-point" class="link"
-      id="portfolioEvent">PORTFOLIO</a><a href="https://github.com/KPJBuchik" target="_blank" class="link">GITHUB</a><a class="link" target="_blank" href="https://www.linkedin.com/in/kevin-buchik/" >LINKEDIN</a>
+      id="portfolioEvent">PORTFOLIO</a><a href="https://github.com/KPJBuchik" target="_blank" class="link">GITHUB</a><a
+      class="link" target="_blank" href="https://www.linkedin.com/in/kevin-buchik/">LINKEDIN</a>
     <div class="line"></div>
   </div>
   <img id="recordplayer" src="assets/recordplayer.png">
@@ -60,7 +63,8 @@
         <div class="modal-body">
           <img id="headshot" src="assets/headshot.png">
           <h1>ABOUT</h1>
-          <p>Hello, I'm Kevin Buchik, I'm a creative front end web developer based in Phoenix, Arizona. I love designing and building websites. I am  
+          <p>Hello, I'm Kevin Buchik, I'm a creative front end web developer based in Phoenix, Arizona. I love designing
+            and building websites. I am
             self motivated to discover new methods and technologies, and the newest trends in web design and front end
             web development. I have experience working collaboratively on full stack applications, and am always looking
             for new projects to work on.
@@ -94,13 +98,13 @@
           <a data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-target="#sidebarModal"
             class="side-link">ABOUT</a>
           <a data-bs-toggle="modal" data-bs-target="#resumeModal" class="side-link">RESUME</a>
-          <a class="side-link">PORTFOLIO</a>
-          <a class="side-link">GITHUB</a>
-          <a class="side-link">LINKEDIN</a>
+          <a href="#anchor-point" class="side-link">PORTFOLIO</a>
+          <a href="https://github.com/KPJBuchik" target="_blank" class="side-link">GITHUB</a>
+          <a class="side-link" target="_blank" href="https://www.linkedin.com/in/kevin-buchik/">LINKEDIN</a>
           <div id="contact">
-          <h3>KEVIN BUCHIK</h3>
-          <a href="mailto:Kbuchik@gmail.com" id="email">KBUCHIK@GMAIL.COM</a>
-        </div>
+            <h3>KEVIN BUCHIK</h3>
+            <a href="mailto:Kbuchik@gmail.com" id="email">KBUCHIK@GMAIL.COM</a>
+          </div>
         </div>
 
 
@@ -109,37 +113,98 @@
     </div>
   </div>
 
+  <div id="portfoliothingy">
 
-  <div>
+    <div id="project-description">
+      <h3 id="this-title" class="project-title">THIS.SOCIAL MEDIA</h3>
+      <div id="this-description" class="project-description">Group project for University of Arizona Coding.
+        Social media space with unique profiles and login authentication. Built with MongoDB and ReactJS.
+        <div
+          id="project-links">
+          <div id="project-links">
+            <a target="_blank" href="https://github.com/JayG92/thissocialmedia"> <img class="github"
+                src="assets/github-vector.png"></a>
+            <a target="_blank" href="https://thissocial.herokuapp.com/"><i class="fas fa-link"></i></a>
+          </div>
+        </div>
+      </div>
 
-    <h1 id="portfolio">PORTFOLIO</h1>
 
-  </div>
-  <div id="page2">
-    <div id="portfoliotitles">
-      <p data-bs-toggle="modal" data-bs-target="#project1modal" class="projectitles" id="tune-almanac">TUNE ALMANAC</p>
-      <p data-bs-toggle="modal" data-bs-target="#project2modal" class="projectitles" id="this-social">THIS.SOCIAL MEDIA</p>
-      <p data-bs-toggle="modal" data-bs-target="#project4modal" class="projectitles" id="poketron">POKETRON</p>
-      <p data-bs-toggle="modal" data-bs-target="#project5modal" class="projectitles" id="cli">CLI STOREFRONT</p>
+      <h3 id="tune-title" class="project-title">TUNE ALMANAC</h3>
+      <div id="tune-description" class="project-description">Tune Almanac is a javascript web application connected to
+        the
+        Spotify API and your Spotify account. You can search artists, play a 30 second clips of songs, use an adjustable
+        equalizer made with the Web Audio API.
+        <div id="project-links">
+          <a target="_blank" href="https://github.com/KPJBuchik/TuneAlmanac"> <img class="github"
+              src="assets/github-vector.png"></a>
+          <a target="_blank" href="https://kpjbuchik.github.io/TuneAlmanac/#"><i class="fas fa-link"></i></a>
+        </div>
+
+      </div>
+
+      <h3 id="poke-title" class="project-title">POKETRON</h3>
+      <div id="poke-description" class="project-description">Group project for the University of Arizona Coding Bootcamp.
+        Built using JQuery, Handlebars.js, and MySQL.
+        <div id="project-links">
+          <a target="_blank" href="https://github.com/KPJBuchik/Project2"> <img class="github"
+              src="assets/github-vector.png"></a>
+          <a target="_blank" href="https://rocky-earth-06157.herokuapp.com/"><i class="fas fa-link"></i></a>
+        </div>
+
+      </div>
+
+      <h3 id="cli-title" class="project-title">CLI STOREFRONT</h3>
+      <div id="cli-description" class="project-description">CLI storefront with customer and manager views, built with
+        Node.JS
+        <div id="project-links">
+          <a target="_blank" href="https://github.com/KPJBuchik/Bamazon"> <img class="github"
+              src="assets/github-vector.png"></a>
+          <a target="_blank" href="https://github.com/KPJBuchik/Bamazon"><i class="fas fa-link"></i></a>
+        </div>
+
+      </div>
+
+
+
 
     </div>
-    <img id="ribbon2" src="assets/ribbon.png">
+    <img id="this-big" class="big-project-photo" src="assets/this-big.png">
+    <img id="tune-big" class="big-project-photo" src="assets/tune-big.png">
+    <img id="poke-big" class="big-project-photo" src="assets/poke-big.png">
+    <img id="cli-big" class="big-project-photo" src="assets/cli-big.png">
 
-    <div id="portfoliophotos">
-      <img data-bs-toggle="modal" data-bs-target="#project1modal" class="projectphoto" id="tune-almanac-photo" src="assets/projectphoto.png">
-      <img data-bs-toggle="modal" data-bs-target="#project2modal" class="projectphoto" id="this-social-photo"  src="assets/imac-this.png">
-      <img data-bs-toggle="modal" data-bs-target="#project4modal" class="projectphoto" id="poke-photo"
-        src="assets/imac-poketroncrop.png">
-      <img data-bs-toggle="modal" data-bs-target="#project5modal" class="projectphoto" id="cli-photo"
-        src="assets/imac-cli-cropped.png">
+    <img id="selector" class="selector" src="assets/selector.png">
+    <img id="selector2" class="selector" src="assets/selector2.png">
+    <img id="selector3" class="selector" src="assets/selector3.png">
+    <img id="selector4" class="selector" src="assets/selector4.png">
+    <div id="small-photos">
+      <img id="tune-small" class="small-project-photo" src="assets/tune-small.png">
+      <img id="tune-small-over" class="small-project-photo tune-small-over" src="assets/tune-over-small.png">
 
+      <img id="poke-small" class="small-project-photo" src="assets/poke-small.png">
+      <img id="poke-small-over" class="small-project-photo tune-small-over" src="assets/poke-small-over.png">
 
+      <img id="cli-small" class="small-project-photo" src="assets/cli-small.png">
+      <img id="cli-small-over" class="small-project-photo tune-small-over" src="assets/cli-small-over.png">
+
+      <img id="this-small" class="small-project-photo" src="assets/this-small.png">
+      <img id="this-small-over" class="small-project-photo tune-small-over" src="assets/this-small-over.png">
+
+  
     </div>
+  
+
+
 
   </div>
+
+
+
   <a id="anchor-point"></a>
+  <img id="console" src="assets/console.png">
 
-
+  <!-- 
   <div class="modal fade" id="project1modal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog">
       <div class="modal-content aboutModal-design">
@@ -255,7 +320,7 @@
       </div>
     </div>
   </div>
-
+ -->
 
   <script src="app.js"></script>
 

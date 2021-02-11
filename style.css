@@ -1,6 +1,6 @@
 body{background-color:#171818;
     color:white;
-font-family:Roboto; 
+font-family:'Barlow', sans-serif;
 
 }
 
@@ -107,14 +107,16 @@ height:20px;}
 #chickenhawk{   height: 160px;
     position: fixed;
     top: 548px;
-    left:1130px;
+    margin-left: 89%;
+    margin-right: 10%;
 }
 
 #chickenhawk2{   height: 160px;
     position: fixed;
     top: 548px;
-    left:1130px;
     display:none;
+    margin-left: 89%;
+    margin-right: 10%;
     
 }
 
@@ -182,9 +184,13 @@ border-left: solid 2px #195757;;
 margin:10px;
 margin-left:-8px;
 font-size:32px;
-cursor:pointer;}
+cursor:pointer;
+text-decoration:none;
+color:white;}
 .side-link:hover{
     opacity:.7;
+    text-decoration:none;
+    color:white;
 }
 
 
@@ -208,29 +214,99 @@ text-decoration:underline;}
 #email:hover{opacity:.7;}
 .modalprojectheader{    }
 
-.github{    position: absolute;
-    left: 90px;
-    top: 180px;
-    height: 40px;}
+.github{   filter:invert(100%);
+    height: 30px;
+    margin-right:5px;
+color:white;
+}
     .github:hover{cursor:pointer;
     opacity:.7}
-.fa-link{position: absolute;
-    font-size: 40px;
-    left: 372px;
-    top: 180px;
+
+
+.fa-link{
+    font-size: 30px;
+ 
     height: 40px;
-color:black;}
+color:white;}
 
 .fa-link:hover{cursor:pointer;
 opacity:.7}
-    .github:hover{cursor:pointer;
-    opacity:.7}
 
+    #project-links{margin-top: 5px;
+        margin-left:0px;
+        display: flex;
+    }
 .modal-body{  text-align: center;
 }
 
 .sidebar-body{text-align:initial;}
 
+
+.big-project-photo{
+    margin-right:5px;
+    margin-left: -20px;
+}
+
+#portfoliothingy{display:flex;
+margin-top:-96px;   
+margin-bottom:80px; }
+.project-description{    
+    font-size: 12px;
+    margin-lefT: 20px;
+    margin-right: 40px;
+    width: 280px;
+
+
+   
+}
+.project-title{
+    }
+
+#project-description{ 
+margin-left:16px;
+text-align: left;}
+#small-photos{    display:grid;
+
+ }
+.small-project-photo{ 
+    margin-left:-256px;
+    cursor:pointer;
+    
+}
+
+#tune-small-over{display:none;}
+.selector{    margin-left: 220px;
+    margin-right:20px;
+    right: 20px;
+    bottom: 220px;
+    height:250px;
+
+}
+#selector2{display:none;}
+#selector3{display:none;}
+#selector4{display:none;}
+
+
+
+#tune-big{display:none;}
+
+#cli-big{display:none;}
+#poke-big{display:none;}
+
+#this-small{display:none;}
+
+#poke-title{display:none;}
+#poke-description{display:none;}
+#tune-title{display:none;}
+#tune-description{display:none;}
+
+#cli-title{display:none;}
+#cli-description{display:none;}
+
+.small-project-photo:hover{opacity:.7;}
+
+
+.tune-small-over{display:none;}
 
 @media only screen and (max-width: 600px) {
 
@@ -307,7 +383,7 @@ z-index:2;}
                         margin-left:1%;}
                         
                         #chickenhawk{   height: 120px;
-                            position: relative;
+                            position: absolute;
                             top: 560px;
                             left:1%
                         }
