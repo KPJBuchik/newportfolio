@@ -542,25 +542,23 @@ top:980px;
 .section{
     height: 100vh;
     width: 100%;
-    transition: transform 0.3s ease-out;
 }
 
 
-        body{height:200px;}
+        
         #pagescroll{
             width: 100%;
             height: 100vh;
             position: relative;
             overflow:auto;
-            scroll-behavior:smooth;
             overflow-x:hidden;
+            scroll-behavior: auto;
         } 
 
      .big-project-photo{
         height:250px !important;    
         position:relative;  
-        top:30;
-        
+        top:20;
 
                     }
     .logos{display:none !important;}
@@ -819,10 +817,21 @@ top:980px;
         display:grid;
                                   
                                 
-                                }      
+     }      
+     #portfolio-header{
+        position: relative;
+        top: 232px;
+        margin-left:8px;
+        z-index:-3;
+    
+    }
+        
+
 
       #title2{
      font-size:2.5em;
+     position:absolute;
+     top:-60;
      }                         
                                 
         #scrollable-div{margin-top:24px;
@@ -832,6 +841,8 @@ top:980px;
 }
     .section2{position:absolute;
     height:200px;}
+
+
         
                                         }
                                                 
