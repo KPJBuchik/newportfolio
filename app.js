@@ -1,5 +1,5 @@
 
-if ($(window).width() >= 800) {
+
 
     window.onscroll = function () {
         scrollRotate();
@@ -84,7 +84,7 @@ if ($(window).width() >= 800) {
     document.getElementById("chickenhawk").addEventListener("click", function () { setTimeout(replace, 200) });
 
 
-
+    if ($(window).width() >= 800) {
     $(".big-project-photo").on("click", function () {
         var scroll = $("#scrollable-div").scrollTop();
 

@@ -532,9 +532,14 @@ top:980px;
 
 #tune-big{height:initial;}
     @media only screen and (max-width: 600px) {
-/* 
-    .project-info{margin-top:10px;
-    position:absolute;} */
+
+        #pagescroll{
+            width: 100%;
+            height: 100vh;
+            position: relative;
+            overflow:auto;
+            scroll-behavior:smooth;
+        } 
 
      .big-project-photo{
         height:250px !important;    
@@ -560,15 +565,7 @@ top:980px;
         margin-bottom:26px;
         }
         
-        
-        /* html {
-            scroll-behavior: smooth;
-            overflow-y:hidden;
-            overflow-x:hidden;
-        
-        
-          }
-         */
+      
         #job{font-size:32px;
             margin-left:1px;
         }
@@ -607,16 +604,16 @@ top:980px;
                                 
             #chickenhawk{  
                 height: 120px;
-                position: absolute;
+                position: fixed;
                 top: 560px;
-                left:-10%;
+                left:-30%;
                 
             }
             
             #chickenhawk2{   height: 120px;
-                position: absolute;
-                top: 650px;
-                left:20%;                
+                position: fixed;
+                top: 560px;
+                left:-30%;                
                 display:none;
 
                 
