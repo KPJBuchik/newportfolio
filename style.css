@@ -533,6 +533,8 @@ top:980px;
 #tune-big{height:initial;}
     @media only screen and (max-width: 600px) {
 
+
+        body{height:200px;}
         #pagescroll{
             width: 100%;
             height: 100vh;
@@ -557,8 +559,24 @@ top:980px;
     #scroll-flair{display:none;
     }           
                      
-    #menu{display:none;}
+    #menu{
+        position:absolute;
+        display: flex;
+        align-items:center;
+    color:white;
+    margin-left:8px;
+    font-size:12px;
+    margin-top:216px;
+    
+    }
         
+    .link{margin-right:24px;
+        margin-left:24px;
+        cursor:pointer;
+        color:white;
+        text-decoration: none;}
+
+
         #kevin{font-size:80px;
         display:flex;
         margin-bottom:26px;}
@@ -607,14 +625,14 @@ top:980px;
                 height: 120px;
                 position: fixed;
                 top: 560px;
-                left:-22%;
+                left:-16%;
                 
             }
             
             #chickenhawk2{   height: 120px;
                 position: fixed;
                 top: 560px;
-                left:-22%;                
+                left:-16%;                
                 display:none;
 
                 
@@ -663,11 +681,6 @@ top:980px;
     #header{margin-bottom:24px;}
                     
         
-     #blue-and-white{display:none
-        }
-                        
-    #blue-and-white2{display:none;
-     }
                         
         
      .big-project-photo{
@@ -677,8 +690,8 @@ top:980px;
     #tune-big{margin-right:400px;
     height:initial;}
 
-     #menu{display:none;}
-        
+
+    
      #kevin{font-size:80px;
         display:flex;
         margin-bottom:26px;}
@@ -764,10 +777,18 @@ top:980px;
                     #header{margin-bottom:24px;}
                     
         
-                    #blue-and-white{display:none
+    #blue-and-white{z-index:-10;
+    position:absolute;
+    top:1550;
+    height:60px;
                         }
                         
-                        #blue-and-white2{display:none;
+      #blue-and-white2{z-index:-10;
+        height:60px;
+    position:absolute;
+    top:1550;
+    float:right;
+    right:0;
                             }
                         
         
