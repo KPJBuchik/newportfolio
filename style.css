@@ -539,6 +539,7 @@ top:980px;
             position: relative;
             overflow:auto;
             scroll-behavior:smooth;
+            overflow-x:hidden;
         } 
 
      .big-project-photo{
@@ -571,8 +572,6 @@ top:980px;
         }
         
         
-        #ribbon{height:100px;
-        width:460px;}
         
         
         #recordplayer{
@@ -585,8 +584,10 @@ top:980px;
         #ribbon{   
             position: absolute;
             width: 600px;
-            left:20px;
-            margin-top: -338px;}
+            left:0px;
+            margin-top: -320px;
+            height:32px;
+            width:560px;}
         
         
             
@@ -686,21 +687,13 @@ top:980px;
         }
         
         
-        /* html {
-            scroll-behavior: smooth;
-            overflow-y:hidden;
-            overflow-x:hidden;
-        
-        
-          } */
         
         #job{font-size:32px;
             margin-left:1px;
         }
         
         
-        #ribbon{height:100px;
-        width:460px;}
+     
         
         
         #recordplayer{
@@ -710,11 +703,7 @@ top:980px;
         left:-24px;
         z-index:2;}
         
-        #ribbon{   
-            position: absolute;
-            width: 600px;
-            left:20px;
-            margin-top: -338px;}
+   
         
         
             
