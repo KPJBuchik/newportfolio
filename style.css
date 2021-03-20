@@ -4,6 +4,8 @@ font-family:'Barlow', sans-serif;
 color:white;
 }
 
+#portfoliothingy{display:none;}
+
 html {
     scroll-behavior: smooth;
      /* overflow-y:hidden; */
@@ -534,6 +536,16 @@ top:980px;
     @media only screen and (max-width: 600px) {
 
 
+#portfoliothingy{display:initial;}
+
+
+.section{
+    height: 100vh;
+    width: 100%;
+    transition: transform 0.3s ease-out;
+}
+
+
         body{height:200px;}
         #pagescroll{
             width: 100%;
@@ -766,62 +778,60 @@ top:980px;
         
         
                 
-                    #logo{
-                            height:86px;
-                            margin:20px;
-                            
-                            
-                       
-                        }
+                    
                         
                     #header{margin-bottom:24px;}
                     
         
     #blue-and-white{z-index:-10;
     position:absolute;
-    top:1550;
+    top:1400;
     height:60px;
+    margin-left:0;
+    display:none;
                         }
                         
       #blue-and-white2{z-index:-10;
-        height:60px;
-    position:absolute;
-    top:1550;
+        height:40px;
+    position:relative;
+    top:900;
     float:right;
     right:0;
+        display:none;
+
                             }
                         
         
                           
-                                #tune-big{margin-right:400px;}
             
             
             
                       
-                                  #down{display:none !important;}
+    #down{display:none !important;}
             
-                                  #arrows{  
-                                    position:relative;
-                                    margin-left:0;
-                                    bottom:0;
-                                    z-index:5;
-                                    top:15;
-                                    left:300px;
-                                    display:grid;
+    #arrows{  
+        position:relative;
+        margin-left:0;
+        bottom:0;
+        z-index:5;
+        top:15;
+        left:300px;
+        display:grid;
                                   
                                 
                                 }      
 
-                                #title2{
-                                    font-size:2.5em;
-                                }
+      #title2{
+     font-size:2.5em;
+     }                         
                                 
         #scrollable-div{margin-top:24px;
         overflow:hidden;
         overflow-y: hidden;
         scroll-behavior: none;
 }
-        
+    .section2{position:absolute;
+    height:200px;}
         
                                         }
                                                 
