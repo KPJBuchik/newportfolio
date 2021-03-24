@@ -110,7 +110,7 @@
 
 
         scrollDivElement.scrollTo({
-            top: 150,
+            top: 167,
             behavior: 'smooth'
 
         })
@@ -152,7 +152,7 @@
 
 
         scrollDivElement.scrollTo({
-            top: 150,
+            top: 167,
             behavior: 'smooth'
 
         })
