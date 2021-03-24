@@ -299,7 +299,7 @@
 
                 $("#github-link").attr("href", "https://github.com/KPJBuchik/Bamazon")
                 $("#link-link").attr("href", "https://github.com/KPJBuchik/Bamazon")
-                // $("#scroll-flair").css("display","none")
+                $("#scroll-flair").css("opacity","0")
 
 
 
@@ -358,7 +358,7 @@
 
 
 
-                // $("#scroll-flair").css("display","none")
+                $("#scroll-flair").css("opacity","0")
 
             }
 
