@@ -120,7 +120,7 @@
     $("#down-this").on("click", function () {
 
         scrollDivElement.scrollTo({
-            top: 340,
+            top: 296,
             behavior: 'smooth'
 
         })
@@ -163,7 +163,7 @@
 
 
         scrollDivElement.scrollTo({
-            top: 340,
+            top: 296,
             behavior: 'smooth'
 
         })
