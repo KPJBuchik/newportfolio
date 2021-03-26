@@ -8,7 +8,10 @@
 
 
 
+    // While PX, EM, and REM are primarily used for font sizing, %, VW, and VH are mostly used for margins, padding, spacing, and widths/heights. To reiterate, VH stands for “viewport height”, which is the viewable screen's height. 100VH would represent 100% of the viewport's height, or the full height of the screen.Nov 13, 2020
 
+
+    
     function scrollRotate() {
         let image = document.getElementById("chickenhawk");
         let image2 = document.getElementById("chickenhawk2");

@@ -19,7 +19,7 @@ html {
 
 #logo{
         height:124px;
-        margin:20px;
+        margin:1.57vw;
         
         
    
@@ -28,17 +28,15 @@ html {
 #recordplayer{
     height:324px;
 position:relative;
-top: -400px;
-left: 600px;}
+top: -57.30vh;
+left: 46.875vw;}
 
 #sandwich{ 
     position:fixed;
     height: 5%;
-    top: 216px;
-    left: 2px;
-    margin-left: 92.5%;
-    margin-right: 10%;
-    margin-top: -200px;
+
+    margin-left: 79vw;
+    margin-top: 2vh;
     cursor: pointer;
     z-index:2;
 
@@ -48,18 +46,18 @@ left: 600px;}
 }
 
 
-#title{margin-top: -56px;
+#title{margin-top: -8.022922636103152vh;
     color: white;
-    margin-left: 8px;
+    margin-left: 0.62843vw;
 display:grid;}
-#kevin{font-size:160px;
+#kevin{font-size:160px;;
 display:flex}
-#buchik{margin-top:-56px;
+#buchik{margin-top:-8.022922636103152vh;
     font-size:160px;
     }
 
-#job{margin-left: 10px;
-    margin-top: -32px;
+#job{margin-left: 0.78554vw;
+    margin-top: -4.584527220630372vh;
     font-size:56px;
 font-weight: lighter;
 opacity:.5;}
@@ -68,14 +66,15 @@ opacity:.5;}
     display: flex;
     align-items:center;
 color:white;
-border-spacing: 20px;
-margin-left:20px;
-font-size:16px;
-margin-top:40px;
+border-spacing: 2.865329512893983vh;
+margin-left:2.865329512893983vh;
+font-size:16px;;
+
+margin-top:5.7306vh;
 
 }
-.link{margin-right:24px;
-margin-left:24px;
+.link{margin-right:1.8853vw;
+margin-left:1.8853vw;
 cursor:pointer;
 color:white;
 text-decoration: none;}
@@ -91,20 +90,15 @@ height:20px;}
     position: absolute;
     width: 1900px;
     left:0;
-    margin-top: -550px;
+    margin-top: -78.79656160458453vh;
 height:70px;}
-#ribbon2{
-    position: absolute;
-    width: 900px;
-    margin-top: -100px;
 
-    
-    z-index:-1;}
  #arrow{   display:none;
      cursor:pointer;
      float: right;
     position: relative;
-    bottom: 400px;
+    bottom: 57.306590257879655vh;
+
     height:25%}
 
 #arrow:hover{
@@ -114,8 +108,8 @@ height:70px;}
 #chickenhawk{   height: 160px;
     position: fixed;
     bottom: 0;
-    margin-left: 89%;
-    margin-right: 10%;
+    margin-left: 89vw;
+    margin-right:0.274941084vw;
     z-index:2;
 
 }
@@ -124,8 +118,9 @@ height:70px;}
     position: fixed;
     bottom: 0;
     display:none;
-    margin-left: 89%;
-    margin-right: 10%;
+    margin-left: 89vw;
+    margin-right:0.274941084vw;
+
     z-index:2;
 
     
@@ -139,7 +134,7 @@ height:70px;}
     #portfolio{  color:white;
     }
 
-.projectphoto{margin:10px;
+.projectphoto{margin:1.4326647564469914vh;
     height:150px;
     width:254px;
     border-style:solid;
@@ -163,9 +158,9 @@ font-weight:lighter;
 }
 
 .modal-design{position:fixed;
-left:624px;
-height:720px;
-top:-50px;
+left:49vw;
+height:103.15186246418338vh;
+top:-7.16vh;
 background-color:black;
 border-left: solid 2px #195757;;
 
@@ -174,9 +169,9 @@ border-left: solid 2px #195757;;
 }
 
 .side-link{display:grid;
-    margin:10px;
-    margin-left:-8px;
-    font-size:32px;
+    margin:1.43vh;
+    margin-left: -0.625vw;
+    font-size:32px;;
     cursor:pointer;
     text-decoration:none;
     color:white;}
@@ -195,12 +190,12 @@ border-width:2px;
 }
 
 #contact{ display: block;
-    margin-top: 280px;
+    margin-top: 38.8349vh;
 }
 
     h3{margin-left:5%;}
 #email{margin-left:7%;
-font-size:16px;
+font-size:16px;;
 color:white;
 text-decoration:underline;}
 
@@ -208,7 +203,7 @@ text-decoration:underline;}
 
 .github{   filter:invert(100%);
     height: 30px;
-    margin-right:5px;
+    margin-right:0.390vw;
 color:white;
 }
     .github:hover{cursor:pointer;
@@ -216,7 +211,7 @@ color:white;
 
 
 .fa-link{
-    font-size: 30px;
+    font-size:30px;
  
     height: 40px;
 color:white;}
@@ -224,7 +219,7 @@ color:white;}
 .fa-link:hover{cursor:pointer;
 opacity:.7}
 
-    #project-links{margin-top: 5px;
+    #project-links{margin-top:0.7163323782234957vh;
         margin-left:0px;
         display: flex;
     }
@@ -234,32 +229,32 @@ opacity:.7}
 .sidebar-body{text-align:initial;
    
 }
-#poke-big{margin-left:600px;
-    padding-bottom:180px;}
+#poke-big{margin-left:46.875vw;
+    padding-bottom:24.9653vh;}
 
 .big-project-photo{
   float:right;
-  margin-right:30px;
-  margin-top:80px;
+  margin-right:2.34375vw;
+  margin-top:11.461318051575931vh;
   height:80px;
   
 }
-#tune-big{margin-top:20px;}
+#tune-big{margin-top:2.7739vh;}
 
 
 
-#this-big{margin-left:600px;}
-#cli-big{margin-left:600px;}
+#this-big{margin-left:46.875vw}
+#cli-big{margin-left:46.875vw;}
 
 
 .project-info{    
     position:relative;
 
-    font-size: 12px;
+    font-size:12px;
      margin-lefT: 0px;
-    margin-right: 40px;
+    margin-right: 3.142183817vw;
     width: 280px;
-    top:500px;
+    top:71.6vh;
    
 }
 
@@ -286,7 +281,7 @@ opacity:.7}
 }
 .project-description{ 
 position:relative;
-margin-left:16px;
+margin-left:1.25vw;
 text-align: left;
 }
 #small-photos{    display:grid;
@@ -296,8 +291,8 @@ text-align: left;
     cursor:pointer;
     position:relative;
     float:right;
-    margin-left:600px;
-    margin-top:20px;
+    margin-left:46.875vw;
+    margin-top:2.8vh;
     height:120px;;
 
     
@@ -324,8 +319,8 @@ body{
 }
 
  #pagescroll{
-    width: 100%;
-    height: 100%;
+    width: 100vw;
+    height: 100vh;
     position: relative;
     overflow: hidden;
     scroll-behavior:smooth;
@@ -345,26 +340,7 @@ body{
     flex-direction: column;
 }
 
-#control-up,
-#control-down {
-    cursor: pointer;
-    margin: 5px;
-    transform: scale(0.5);
-    transition: 0.2s;
-}
 
-#control-down{
-    transform: rotate(180deg)  scale(0.5);
-}
-#control-down:hover{
-    transform: rotate(180deg)  scale(0.7);
-}
-#control-up:hover{
-    transform: scale(0.7);
-}
-
-
-.background2{background-color:blue;}
 
 
 #banner{position:relative;
@@ -372,20 +348,20 @@ z-index:-1;}
 
 #portfolio-pics{display:grid;
 float:right;
-margin-bottom:300px;
+margin-bottom:42.97vh;
 position:relative;
 }
 
 #portfolio-header{
     position: relative;
-    top: 232px;
-    margin-left:8px;
+    top: 30vh;
+    margin-left:0.625vw;
     z-index:-3;
     vertical-align: top;
 
 }
 
-#title2{font-size:4.5em;
+#title2{font-size:72px;
 }
 #scrollable-div{display:grid;
     scroll-behavior:smooth;
@@ -395,10 +371,10 @@ position:relative;
     /* overflow-x: hidden; */
         /* overflow-y: hidden; */
 
-    margin-right:40px;
+    margin-right:3.125vw;
     /* margin-top:100px; */
     margin-bottom:0px;
-    max-height:650px;
+    max-height:93.12320vh;
     z-index:0;
     
     
@@ -416,8 +392,8 @@ position:relative;
   /* Track */
   ::-webkit-scrollbar-track {
     background: white; 
-    margin-top: 20px;
-    margin-bottom: 200px;
+    margin-top: 2.8653vh;
+    margin-bottom: 28.653vh;
   }
    
   /* Handle */
@@ -433,7 +409,7 @@ position:relative;
 
 
   .project-title{    position: relative;
-    top: 500px;
+    top: 71.633vh;
 margin-left:0;}
 
 
@@ -442,13 +418,13 @@ margin-left:0;}
 
 #down{  
     position:absolute;
-    top:500px;
+    top:71.633vh;
     height: 40px;
-    margin-left: 386px;
+    margin-left: 7.69010vw;
 }
 
 .down-click{position:relative;
-top:400px;
+top:57.306590257879655vh;
 cursor:pointer;
 height:20px;
 display:none}
@@ -458,20 +434,20 @@ display:none}
 
 
 .up-click{position:relative;
-    top:380px;
+    top:52.704576976421635vh;
     cursor:pointer;
     height:20px;
     }
 #arrows{
     position:sticky;
     display:grid;
-    margin-left:272px;
-    bottom:900px;
+    margin-left:22vw;
+    bottom: 128.9398vh;
 }
 
 
 
-.logos{margin-top:100px;
+.logos{margin-top:13.8696255vh;
 margin-left:64px;
 display:none;
 height:120px;
@@ -522,12 +498,12 @@ z-index:-2;}
 
 #blue-and-white{z-index:-10;
 position:absolute;
-top:980px;
+top:135.9223vh;
 }
 
 #blue-and-white2{z-index:-10;
     position:absolute;
-    top:1050;
+    top:145.63106796116506vh;
     float:right;
     right:0;
     }
@@ -637,7 +613,7 @@ top:980px;
             #chickenhawk{  
                 height: 120px;
                 position: fixed;
-                bottom: 560px;
+                top: 560px;
                 left:-12%;
                 
             }
@@ -677,7 +653,6 @@ top:980px;
                 .side-link{display:grid;
                     margin:10px;
                     margin-left:-8px;
-                    font-size:16px;
                     cursor:pointer;}
                 .sidebar-body{margin-top:32px}
         
@@ -773,7 +748,6 @@ top:980px;
                 .side-link{display:grid;
                     margin:10px;
                     margin-left:-8px;
-                    font-size:16px;
                     cursor:pointer;}
                 .sidebar-body{margin-top:32px}
         
