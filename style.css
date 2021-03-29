@@ -11,14 +11,13 @@ html {
      /* overflow-y:hidden; */
     /* overflow-x:hidden;  */
     /* overflow-y:hidden; */
-    height:100vh;
   }
 
 
 
 
 #logo{
-        height:124px;
+        height:19.3447vh;
         margin:1.57vw;
         
         
@@ -26,10 +25,12 @@ html {
     }
 
 #recordplayer{
-    height:324px;
-position:relative;
-top: -57.30vh;
-left: 46.875vw;}
+    height:44.93758vh;
+    width:flex;
+position:absolute;
+margin-left:52vw;
+margin-top:-60vh;
+}
 
 #sandwich{ 
     position:fixed;
@@ -49,16 +50,17 @@ left: 46.875vw;}
 #title{margin-top: -8.022922636103152vh;
     color: white;
     margin-left: 0.62843vw;
-display:grid;}
-#kevin{font-size:160px;;
+display:grid;
+}
+#kevin{font-size:24.9609vh;
 display:flex}
 #buchik{margin-top:-8.022922636103152vh;
-    font-size:160px;
+    font-size:24.9609vh;
     }
 
 #job{margin-left: 0.78554vw;
     margin-top: -4.584527220630372vh;
-    font-size:56px;
+    font-size:8.736349vh;
 font-weight: lighter;
 opacity:.5;}
 
@@ -68,7 +70,7 @@ opacity:.5;}
 color:white;
 border-spacing: 2.865329512893983vh;
 margin-left:2.865329512893983vh;
-font-size:16px;;
+font-size:2.496099vh;
 
 margin-top:5.7306vh;
 
@@ -87,11 +89,11 @@ opacity:.7}
 .line{border-left: 2px solid white;
 height:20px;}
 #ribbon{    z-index: -1;
-    position: absolute;
-    width: 1900px;
+    position: relative;
+    width:  14809px;;
     left:0;
-    margin-top: -78.79656160458453vh;
-height:70px;}
+    margin-top: -222px;
+height:9.708vh;}
 
  #arrow{   display:none;
      cursor:pointer;
@@ -99,13 +101,13 @@ height:70px;}
     position: relative;
     bottom: 57.306590257879655vh;
 
-    height:25%}
+    height:25vh;}
 
 #arrow:hover{
     opacity:.7;
 }
 
-#chickenhawk{   height: 160px;
+#chickenhawk{   height: 24vh;
     position: fixed;
     bottom: 0;
     margin-left: 89vw;
@@ -114,7 +116,7 @@ height:70px;}
 
 }
 
-#chickenhawk2{   height: 160px;
+#chickenhawk2{   height: 24vh;
     position: fixed;
     bottom: 0;
     display:none;
@@ -134,19 +136,6 @@ height:70px;}
     #portfolio{  color:white;
     }
 
-.projectphoto{margin:1.4326647564469914vh;
-    height:150px;
-    width:254px;
-    border-style:solid;
-    border-color:#195757;
-    border-width:2px;
-
-    
- 
-
-                }
-
-.projectphoto:hover{opacity:.9;}
 
 .projectitles:hover{
     cursor:pointer;
@@ -195,7 +184,7 @@ border-width:2px;
 
     h3{margin-left:5%;}
 #email{margin-left:7%;
-font-size:16px;;
+font-size:2.496099vh;;
 color:white;
 text-decoration:underline;}
 
@@ -236,10 +225,15 @@ opacity:.7}
   float:right;
   margin-right:2.34375vw;
   margin-top:11.461318051575931vh;
-  height:80px;
+  height:11vh;
+
+
   
 }
-#tune-big{margin-top:2.7739vh;}
+#tune-big{margin-top:2.7739vh;
+height:64vh;
+
+}
 
 
 
@@ -327,9 +321,11 @@ body{
 } 
 .section{
     height: 100vh;
-    width: 100%;
+    width: 100vw;
     transition: transform 0.3s ease-out;
 }
+
+
 .controllers{
     z-index: 999;
     position: fixed;
@@ -358,6 +354,7 @@ position:relative;
     margin-left:0.625vw;
     z-index:-3;
     vertical-align: top;
+    height:10vh;
 
 }
 
@@ -419,14 +416,14 @@ margin-left:0;}
 #down{  
     position:absolute;
     top:71.633vh;
-    height: 40px;
+    height: 5.547850vh;
     margin-left: 7.69010vw;
 }
 
 .down-click{position:relative;
 top:57.306590257879655vh;
 cursor:pointer;
-height:20px;
+height:2.773925vh;
 display:none}
 
 #down-cli{display:inherit;
@@ -436,7 +433,7 @@ display:none}
 .up-click{position:relative;
     top:52.704576976421635vh;
     cursor:pointer;
-    height:20px;
+    height:2.773vh;
     }
 #arrows{
     position:sticky;
@@ -462,11 +459,12 @@ z-index:-2;}
 /* right:100px; */
 top:200px;
 z-index:-2;
-height:64px;}
+}
 #poke-logo{position:absolute;
 z-index:-2;}
 
 #this-logo{position:absolute;
+
 z-index:-2;}
 
 
@@ -509,321 +507,140 @@ top:135.9223vh;
     }
 
 
-#tune-big{height:initial;}
     @media only screen and (max-width: 600px) {
 
-
-#portfoliothingy{display:initial;}
-
-
-.section{
-    height: 100vh;
-    width: 100%;
-}
-
-
-        
-        #pagescroll{
-            width: 100%;
-            height: 100vh;
-            position: relative;
-            overflow:auto;
-            overflow-x:hidden;
-            overflow-y:hidden;
-
-            scroll-behavior: auto;
-        } 
-
-     .big-project-photo{
-        height:250px !important;    
-        position:relative;  
-        top:20;
-
-                    }
-    .logos{display:none !important;}
-
-    .side-title{display:none !important}
-
-     
-    #scroll-flair{display:none;
-    }           
-                     
-    #menu{
-        position:absolute;
-        display: flex;
-        align-items:center;
-    color:white;
-    margin-left:8px;
-    font-size:12px;
-    margin-top:216px;
+        .big-project-photo{
+            height:250px; 
+            width:400px;  
+            position:relative;  
+            top:20;
+            display:none;
     
+                        }
+
+                            
+        #tune-big{margin-right:400px;
+            height:initial;
+                
+            
+        }
+              
+                    
+       
+
+  
+
+         #scrollable-div{
+            margin-top:24px;
+            overflow:hidden;
+            overflow-y: hidden;
+            scroll-behavior: none;
+        }
+        #arrows{  
+            position:relative;
+            margin-left:0;
+            bottom:0;
+            z-index:5;
+            top:-200;
+            left:300px;
+            display:grid;
+                                    
+                                    
+        }     
+        
+        .section2{
+            position:relative;
+            bottom:200
+        }
+
+
+        #blue-and-white{
+            display:none;
+        }
+                                
+        #blue-and-white2{z-index:-10;
+            display:none;
+                
+            
+        }
+        .project-info
+        {font-size:24px;
+        width:500px;
+        margin-lefT: 0px;
+        margin-right:0px;
+
     }
-        
-    .link{margin-right:16px;
-        margin-left:16px;
-        cursor:pointer;
-        color:white;
-        text-decoration: none;}
 
-
-        #kevin{font-size:80px;
-        display:flex;
-        margin-bottom:26px;}
-        #buchik{font-size:80px;
-        margin-bottom:26px;
-        }
-        
-      
-        #job{font-size:32px;
-            margin-left:1px;
-        }
-        
-        
-        
-        
-        #recordplayer{
-            height:226px;
-        position:relative;
-        top: -16px;
-        left:-24px;
-        z-index:2;}
-        
-        #ribbon{   
-            position: absolute;
-            width: 600px;
-            left:0px;
-            margin-top: -320px;
-            height:32px;
-            width:560px;}
-        
-        
-            
-         #portfoliophotos{
-                /* margin-left:-208px; */
-            
-                margin-bottom:200px;
-                display: block;
-                margin-left: auto;
-                margin-right: auto;
-            }
-            
-           
-        
-                                
-            #chickenhawk{  
-                height: 120px;
-                position: fixed;
-                top: 560px;
-                left:-12%;
-                
-            }
-            
-            #chickenhawk2{   height: 120px;
-                position: fixed;
-                top: 560px;
-                left:-12%;                
-                display:none;
-
-                
-            }
-        
-            #sandwich{ 
-                position: fixed;
-                height: 24px;
-                top: 216px;
-                left: 2px;
-                margin-left: 80%;
-                margin-right: 20%;
-                margin-top: -200px;
-                cursor: pointer;
-                z-index:2;
-            }
-        
-            .modal-design{position:fixed;
-                left:180px;
-                height:720px;
-                top:-50px;
-                background-color:black;
-                border-left: solid 2px #195757;;
-                
-                
-                
-                }
-        
-                .side-link{display:grid;
-                    margin:10px;
-                    margin-left:-8px;
-                    cursor:pointer;}
-                .sidebar-body{margin-top:32px}
-        
-        
-                
-    #logo{
-     height:86px;
-    margin:20px;
-                                
-                            
-                       
-                        }
-                        
-    #header{margin-bottom:24px;}
-                    
-        
-                        
-        
-     .big-project-photo{
-        height:200px !important;      
-                     }
-                            
-    #tune-big{margin-right:400px;
-    height:initial;}
-
-
-    
-     #kevin{font-size:80px;
-        display:flex;
-        margin-bottom:26px;}
-    #buchik{font-size:80px;
-        margin-bottom:26px;
-        }
-        
-        
-        
-        #job{font-size:32px;
-            margin-left:1px;
-        }
-        
-        
-     
-        
-        
-        #recordplayer{
-            height:226px;
-        position:relative;
-        top: -16px;
-        left:-24px;
-        z-index:2;}
-        
-   
-        
-        
-            
-         #portfoliophotos{
-                /* margin-left:-208px; */
-            
-                margin-bottom:200px;
-                display: block;
-                margin-left: auto;
-                margin-right: auto;
-            }
-            
-           
-        
-                                
-           
-        
-            #sandwich{ 
-                position: fixed;
-                height: 24px;
-                top: 216px;
-                left: 2px;
-                margin-left: 80%;
-                margin-right: 20%;
-                margin-top: -200px;
-                cursor: pointer;
-                z-index:2;
-            }
-        
-            .modal-design{position:fixed;
-                left:180px;
-                height:720px;
-                top:-50px;
-                background-color:black;
-                border-left: solid 2px #195757;;
-                
-                
-                
-                }
-        
-                .side-link{display:grid;
-                    margin:10px;
-                    margin-left:-8px;
-                    cursor:pointer;}
-                .sidebar-body{margin-top:32px}
-        
-        
-                
-                    
-                        
-                    #header{margin-bottom:24px;}
-                    
-        
-    #blue-and-white{z-index:-10;
-    position:absolute;
-    top:1400;
-    height:60px;
-    margin-left:0;
-    display:none;
-                        }
-                        
-      #blue-and-white2{z-index:-10;
-        height:40px;
-    position:relative;
-    top:900;
-    float:right;
-    right:0;
+        .logos{margin-top:2px;
+        margin-left:64px;
         display:none;
+        height:220px;
+        z-index:1;
+            }
 
-                            }
-                        
+        #cli-logo{position:none;
+            /* right:100px; */
+            top:250;
+            z-index:0;
+            }
+        #this-logo{
+            top:250px;
+
+        }
+        #poke-logo{right:240px;
+        }
         
-                          
-            
-            
-            
-                      
-    #down{display:none !important;}
-            
-    #arrows{  
-        position:relative;
-        margin-left:0;
-        bottom:0;
-        z-index:5;
-        top:15;
-        left:300px;
-        display:grid;
-                                  
-                                
-     }      
-     #portfolio-header{
-        position: relative;
-        top: 232px;
-        margin-left:8px;
-        z-index:-3;
+
+        #chickenhawk{left:-79px;
+            height:150px;
     
+        }
+        #chickenhawk2{left:-79px;
+            height:150px;
+        
+        }
+        #menu{
+            z-index:5;
+            position:relative;
+            font-size:12px;
+            margin-left:14px;
+            bottom:32px;
+
+        }         
+        #kevin{
+            margin-top:40px;
+            font-size:20vh;
+            display:flex
+        }
+         #buchik{margin-top:-8.022922636103152vh;
+            font-size:20vh;
+        }
+
+        #title{margin-top:-64px;
+            color: white;
+            margin-left: 0;
+            display:grid;
+        }
+        #job{
+            margin-left:8px;
+        }
+
+        #logo{
+            height:24vh;;
+            margin:1.57vw;
+            
+            
+       
+        }
+
+
+        #sandwich{ 
+            position:fixed;
+            height: 5%;
+        
+            margin-left: 42vw;
+                      
+        
     }
         
-
-
-      #title2{
-     font-size:2.5em;
-     position:absolute;
-     top:-60;
-     }                         
-                                
-        #scrollable-div{margin-top:24px;
-        overflow:hidden;
-        overflow-y: hidden;
-        scroll-behavior: none;
 }
-    .section2{position:absolute;
-    height:200px;}
-
-
-        
-                                        }
-                                                
-                      
-        
-        
-        

@@ -12,6 +12,10 @@
 
 
     
+
+    
+
+    
     function scrollRotate() {
         let image = document.getElementById("chickenhawk");
         let image2 = document.getElementById("chickenhawk2");
@@ -58,11 +62,8 @@
         image.style.transform = "rotate(" + -16 + "deg)";
         image2.style.transform = "rotate(" + -16 + "deg)";
 
-        // $("#container-911").css("margin-top", "80px");
-        $(".logos").css("margin-top", "160px");
+        // $("#container-911").css("margin-top", "11vh");
 
-        $("#blue-and-white").css("top", "1040px");
-        $("#blue-and-white2").css("top", "1090");
 
         scrollDivElement.scrollTo({
             top: 0,
@@ -79,21 +80,29 @@
 
     document.getElementById("chickenhawk").addEventListener("click", function () { setTimeout(replace, 200) });
 
-    document.getElementById("portfolioEvent").addEventListener("click", function () { setTimeout(replace, 200) });
+    document.getElementById("portfolioEvent").addEventListener("click", function () { setTimeout(replace, 200) })
 
     document.getElementById("chickenhawk").addEventListener("click", function () { setTimeout(replace, 200) });
 
 
-    if ($(window).width() >= 800) {
+    $(".link").on("click", function () {
+        $(".aboutmodal").modal('hide');
+    });
+
+
+
+
+
+
+    // if ($(window).width() >= 800) {
 
 
         $("#chickenhawk2").on("click", function () {
-            $("#portfolio-header").css("top", "290px");
     
-            $("#scrollable-div").css("margin-top", "40px");
-    
+            $("#scrollable-div").css("margin-top", "5vh");
     
     
+            
     
         })
     
@@ -106,6 +115,7 @@
 
         console.log(scroll)
     })
+
     var scrollDivElement = document.getElementById('scrollable-div');
 
     $("#down-cli").on("click", function () {
@@ -190,14 +200,15 @@
 
 
                 $("#this-big").css("height", "initial")
-                $("#tune-big").css("height", "80px")
-                $("#poke-big").css("height", "80px")
-                $("#cli-big").css("height", "80px")
+                $("#tune-big").css("height", "11vh")
+                $("#poke-big").css("height", "11vh")
+                $("#cli-big").css("height", "11vh")
+
 
                 $("#this-big").css("margin-left", "0px")
-                $("#tune-big").css("margin-left", "600px")
-                $("#poke-big").css("margin-left", "600px")
-                $("#cli-big").css("margin-left", "600px")
+                $("#tune-big").css("margin-left", "46vw")
+                $("#poke-big").css("margin-left", "46vw")
+                $("#cli-big").css("margin-left", "46vw")
 
 
 
@@ -237,7 +248,7 @@
                 $("#poke-side").css("display", "none")
 
 
-                $("#scroll-flair").css("top", "650px")
+                $("#scroll-flair").css("top", "86vh")
 
                 $("#down").css("display", "inherit")
 
@@ -250,16 +261,16 @@
 
 
 
-                $("#this-big").css("height", "80px")
-                $("#tune-big").css("height", "80px")
+                $("#this-big").css("height", "11vh")
+                $("#tune-big").css("height", "11vh")
                 $("#cli-big").css("height", "initial")
-                $("#poke-big").css("height", "80px")
+                $("#poke-big").css("height", "11vh")
 
 
 
-                $("#this-big").css("margin-left", "600px")
-                $("#tune-big").css("margin-left", "600px")
-                $("#poke-big").css("margin-left", "600px")
+                $("#this-big").css("margin-left", "46vw")
+                $("#tune-big").css("margin-left", "46vw")
+                $("#poke-big").css("margin-left", "46vw")
                 $("#cli-big").css("margin-left", "0px")
 
 
@@ -310,17 +321,17 @@
             if (scroll >= 400) {
 
 
-                $("#this-big").css("height", "80px")
-                $("#tune-big").css("height", "80px")
-                $("#cli-big").css("height", "80px")
+                $("#this-big").css("height", "11vh")
+                $("#tune-big").css("height", "11vh")
+                $("#cli-big").css("height", "11vh")
                 $("#poke-big").css("height", "initial")
 
 
 
-                $("#this-big").css("margin-left", "600px")
-                $("#tune-big").css("margin-left", "600px")
+                $("#this-big").css("margin-left", "46vw")
+                $("#tune-big").css("margin-left", "46vw")
                 $("#poke-big").css("margin-left", "0px")
-                $("#cli-big").css("margin-left", "600px")
+                $("#cli-big").css("margin-left", "46vw")
 
                 $("#poke-title").css("display", "inherit")
                 $("#p-poke").css("display", "inherit")
@@ -367,15 +378,15 @@
 
             if (scroll == 0) {
 
-                $("#this-big").css("height", "80px")
+                $("#this-big").css("height", "11vh")
                 $("#tune-big").css("height", "initial")
-                $("#cli-big").css("height", "80px")
-                $("#poke-big").css("height", "80px")
+                $("#cli-big").css("height", "11vh")
+                $("#poke-big").css("height", "11vh")
 
-                $("#this-big").css("margin-left", "600px")
+                $("#this-big").css("margin-left", "46vw")
                 $("#tune-big").css("margin-left", "0px")
-                $("#poke-big").css("margin-left", "600px")
-                $("#cli-big").css("margin-left", "600px")
+                $("#poke-big").css("margin-left", "46vw")
+                $("#cli-big").css("margin-left", "46vw")
 
 
                 $("#down-cli").css("display", "inherit")
@@ -405,8 +416,8 @@
                 $("#down-this").css("display", "none");
                 $("#down-poke").css("display", "none");
 
-                $("#poke-side").css("display", "initial")
-                $("#this-side").css("display", "initial")
+                $("#poke-side").css("display", "inherit")
+                $("#this-side").css("display", "inherit")
                 $("#cli-side").css("display", "inherit")
 
                 // $("#down").css("display","inherit")
@@ -422,163 +433,163 @@
 
         });
     });
-}
+// }
 
-if ($(window).width() <= 800) {
+// if ($(window).width() <= 800) {
 
-    $("#down-cli").on("click", function () {
-        $("#tune-big").attr("src", "assets/this-big.png")
+//     $("#down-cli").on("click", function () {
+//         $("#tune-big").attr("src", "assets/this-big.png")
 
-        $("#down-this").css("display", "inherit");
-        $("#down-cli").css("display", "none");
+//         $("#down-this").css("display", "inherit");
+//         $("#down-cli").css("display", "none");
 
-        $("#this-title").css("display", "inherit")
-        $("#p-this").css("display", "inherit")
+//         $("#this-title").css("display", "inherit")
+//         $("#p-this").css("display", "inherit")
 
-        $("#cli-title").css("display", "none")
-        $("#p-cli").css("display", "none")
-
-
-        $("#tune-title").css("display", "none")
-        $("#p-tune").css("display", "none")
-        $("#tune-title").css("display", "none")
-        $("#p-tune").css("display", "none")
-        $("#poke-title").css("display", "none")
-        $("#p-poke").css("display", "none")
-
-        $(".big-project-photo").css("top", "-4")
+//         $("#cli-title").css("display", "none")
+//         $("#p-cli").css("display", "none")
 
 
+//         $("#tune-title").css("display", "none")
+//         $("#p-tune").css("display", "none")
+//         $("#tune-title").css("display", "none")
+//         $("#p-tune").css("display", "none")
+//         $("#poke-title").css("display", "none")
+//         $("#p-poke").css("display", "none")
+
+//         $(".big-project-photo").css("top", "-4")
 
 
 
-    })
-    $("#down-this").on("click", function () {
-        $("#tune-big").attr("src", "assets/cli-big.png")
-        $("#down-this").css("display", "none");
-        $("#down-cli").css("display", "none");
-        $("#down-poke").css("display", "inherit");
-
-        $("#this-title").css("display", "none")
-        $("#p-this").css("display", "none")
-
-        $("#cli-title").css("display", "inherit")
-        $("#p-cli").css("display", "inherit")
 
 
-        $("#tune-title").css("display", "none")
-        $("#p-tune").css("display", "none")
-        $("#tune-title").css("display", "none")
-        $("#p-tune").css("display", "none")
-        $("#poke-title").css("display", "none")
-        $("#p-poke").css("display", "none")
+//     })
+//     $("#down-this").on("click", function () {
+//         $("#tune-big").attr("src", "assets/cli-big.png")
+//         $("#down-this").css("display", "none");
+//         $("#down-cli").css("display", "none");
+//         $("#down-poke").css("display", "inherit");
 
-        $(".big-project-photo").css("top", "34")
+//         $("#this-title").css("display", "none")
+//         $("#p-this").css("display", "none")
 
-
-
-    })
-
-    $("#down-poke").on("click", function () {
-        $("#tune-big").attr("src", "assets/poke-big.png")
-        $("#up-this").css("display", "inherit");
-        $("#up-tune").css("display", "none");
+//         $("#cli-title").css("display", "inherit")
+//         $("#p-cli").css("display", "inherit")
 
 
-        $("#this-title").css("display", "none")
-        $("#p-this").css("display", "none")
+//         $("#tune-title").css("display", "none")
+//         $("#p-tune").css("display", "none")
+//         $("#tune-title").css("display", "none")
+//         $("#p-tune").css("display", "none")
+//         $("#poke-title").css("display", "none")
+//         $("#p-poke").css("display", "none")
 
-        $("#cli-title").css("display", "none")
-        $("#p-cli").css("display", "none")
-
-
-        $("#tune-title").css("display", "none")
-        $("#p-tune").css("display", "none")
-        $("#tune-title").css("display", "none")
-        $("#p-tune").css("display", "none")
-        $("#poke-title").css("display", "inherit")
-        $("#p-poke").css("display", "inherit")
-
-        $(".big-project-photo").css("top", "-4")
+//         $(".big-project-photo").css("top", "34")
 
 
-    })
 
-    $("#up-this").on("click", function () {
-        $("#tune-big").attr("src", "assets/cli-big.png")
-        $("#up-this").css("display", "none");
-        $("#up-tune").css("display", "none");
-        $("#up-cli").css("display", "inherit");
+//     })
 
-        $("#this-title").css("display", "none")
-        $("#p-this").css("display", "none")
-
-        $("#cli-title").css("display", "inherit")
-        $("#p-cli").css("display", "inherit")
+//     $("#down-poke").on("click", function () {
+//         $("#tune-big").attr("src", "assets/poke-big.png")
+//         $("#up-this").css("display", "inherit");
+//         $("#up-tune").css("display", "none");
 
 
-        $("#tune-title").css("display", "none")
-        $("#p-tune").css("display", "none")
-        $("#tune-title").css("display", "none")
-        $("#p-tune").css("display", "none")
-        $("#poke-title").css("display", "none")
-        $("#p-poke").css("display", "none")
+//         $("#this-title").css("display", "none")
+//         $("#p-this").css("display", "none")
+
+//         $("#cli-title").css("display", "none")
+//         $("#p-cli").css("display", "none")
 
 
-        $(".big-project-photo").css("top", "24")
+//         $("#tune-title").css("display", "none")
+//         $("#p-tune").css("display", "none")
+//         $("#tune-title").css("display", "none")
+//         $("#p-tune").css("display", "none")
+//         $("#poke-title").css("display", "inherit")
+//         $("#p-poke").css("display", "inherit")
+
+//         $(".big-project-photo").css("top", "-4")
+
+
+//     })
+
+//     $("#up-this").on("click", function () {
+//         $("#tune-big").attr("src", "assets/cli-big.png")
+//         $("#up-this").css("display", "none");
+//         $("#up-tune").css("display", "none");
+//         $("#up-cli").css("display", "inherit");
+
+//         $("#this-title").css("display", "none")
+//         $("#p-this").css("display", "none")
+
+//         $("#cli-title").css("display", "inherit")
+//         $("#p-cli").css("display", "inherit")
+
+
+//         $("#tune-title").css("display", "none")
+//         $("#p-tune").css("display", "none")
+//         $("#tune-title").css("display", "none")
+//         $("#p-tune").css("display", "none")
+//         $("#poke-title").css("display", "none")
+//         $("#p-poke").css("display", "none")
+
+
+//         $(".big-project-photo").css("top", "24")
 
         
 
 
-    })
+//     })
 
-    $("#up-cli").on("click", function () {
-        $("#tune-big").attr("src", "assets/this-big.png")
-        $("#up-this").css("display", "none");
-        $("#up-tune").css("display", "inherit");
-        $("#up-cli").css("display", "none");
+//     $("#up-cli").on("click", function () {
+//         $("#tune-big").attr("src", "assets/this-big.png")
+//         $("#up-this").css("display", "none");
+//         $("#up-tune").css("display", "inherit");
+//         $("#up-cli").css("display", "none");
 
-        $("#down-this").css("display", "none");
-        $("#down-cli").css("display", "inherit");
-        $("#down-poke").css("display", "none");
+//         $("#down-this").css("display", "none");
+//         $("#down-cli").css("display", "inherit");
+//         $("#down-poke").css("display", "none");
 
-        $("#this-title").css("display", "inherit")
-        $("#p-this").css("display", "inherit")
+//         $("#this-title").css("display", "inherit")
+//         $("#p-this").css("display", "inherit")
 
-        $("#cli-title").css("display", "none")
-        $("#p-cli").css("display", "none")
-
-
-        $("#tune-title").css("display", "none")
-        $("#p-tune").css("display", "none")
-        $("#tune-title").css("display", "none")
-        $("#p-tune").css("display", "none")
-        $("#poke-title").css("display", "none")
-        $("#p-poke").css("display", "none")
-
-        $(".big-project-photo").css("top", "-4")
+//         $("#cli-title").css("display", "none")
+//         $("#p-cli").css("display", "none")
 
 
+//         $("#tune-title").css("display", "none")
+//         $("#p-tune").css("display", "none")
+//         $("#tune-title").css("display", "none")
+//         $("#p-tune").css("display", "none")
+//         $("#poke-title").css("display", "none")
+//         $("#p-poke").css("display", "none")
+
+//         $(".big-project-photo").css("top", "-4")
 
 
 
 
-    })
-    $("#up-tune").on("click", function () {
-        $("#tune-big").attr("src", "assets/tune-big.png")
-
-        $("#tune-title").css("display", "initial")
-        $("#p-tune").css("display", "initial")
-        $("#this-title").css("display", "none")
-        $("#p-this").css("display", "none")
-        $("#cli-title").css("display", "none")
-        $("#p-cli").css("display", "none")
 
 
-        $("#poke-title").css("display", "none")
-        $("#p-poke").css("display", "none")
+//     })
+//     $("#up-tune").on("click", function () {
+//         $("#tune-big").attr("src", "assets/tune-big.png")
 
-        $(".big-project-photo").css("top", "20")
+//         $("#tune-title").css("display", "64vh")
+//         $("#p-tune").css("display", "64vh")
+//         $("#this-title").css("display", "none")
+//         $("#p-this").css("display", "none")
+//         $("#cli-title").css("display", "none")
+//         $("#p-cli").css("display", "none")
+
+
+//         $("#poke-title").css("display", "none")
+//         $("#p-poke").css("display", "none")
+
+//         $(".big-project-photo").css("top", "20")
 
 
        
@@ -586,18 +597,18 @@ if ($(window).width() <= 800) {
 
 
 
-    })
+//     })
 
 
-    $("#chickenhawk2").on("click", function () {
-        $("#portfolio-header").css("top","232px")
+//     $("#chickenhawk2").on("click", function () {
+//         $("#portfolio-header").css("top","232px")
 
 
 
 
-})
+// })
 
-}
+// }
 
 
 
