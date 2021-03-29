@@ -365,7 +365,7 @@
 
                 $("#up-this").css("display", "inherit");
 
-                $("#poke-side").css("display", "none")
+                $("#poke-side").css("display", "inherit")
                 $("#cli-side").css("display", "none")
 
 
@@ -427,7 +427,7 @@
                 $("#down-this").css("display", "none");
                 $("#down-poke").css("display", "none");
 
-                $("#poke-side").css("display", "inherit")
+                $("#poke-side").css("display", "none")
                 $("#this-side").css("display", "inherit")
                 $("#cli-side").css("display", "inherit")
 
