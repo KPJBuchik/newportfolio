@@ -62,14 +62,11 @@
         image.style.transform = "rotate(" + -16 + "deg)";
         image2.style.transform = "rotate(" + -16 + "deg)";
 
+        $(".section2").css("top", "200px")
+
+
         // $("#container-911").css("margin-top", "11vh");
 
-
-        scrollDivElement.scrollTo({
-            top: 0,
-            behavior: 'smooth'
-
-        })
 
 
 
@@ -196,7 +193,7 @@
 
             if (scroll >= 150) {
 
-                $("#scrollable-div").css("margin-bottom", "100px")
+                $("#scrollable-div").css("margin-bottom", "400px")
 
 
                 $("#this-big").css("height", "initial")

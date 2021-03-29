@@ -342,6 +342,12 @@ body{
 #banner{position:relative;
 z-index:-1;}
 
+
+
+#space{height:50px;}
+
+
+
 #portfolio-pics{display:grid;
 float:right;
 margin-bottom:42.97vh;
@@ -349,12 +355,11 @@ position:relative;
 }
 
 #portfolio-header{
-    position: relative;
-    top: 30vh;
-    margin-left:0.625vw;
-    z-index:-3;
-    vertical-align: top;
-    height:10vh;
+position:relative;
+bottom:-29vh;
+margin-left:0.625vw;
+z-index:-6;
+height:10vh;
 
 }
 
@@ -444,10 +449,10 @@ display:none}
 
 
 
-.logos{margin-top:13.8696255vh;
+.logos{margin-top:17vh;
 margin-left:64px;
 display:none;
-height:120px;
+height:19vh;
 }
 
 #tune-logo{
