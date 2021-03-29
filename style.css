@@ -123,7 +123,7 @@ height:9.708vh;}
     margin-left: 89vw;
     margin-right:0.274941084vw;
 
-    z-index:2;
+    z-index:16;
 
     
 
@@ -226,6 +226,8 @@ opacity:.7}
   margin-right:2.34375vw;
   margin-top:11.461318051575931vh;
   height:11vh;
+  width:auto;
+  
 
 
   
@@ -247,7 +249,7 @@ height:64vh;
     font-size:12px;
      margin-lefT: 0px;
     margin-right: 3.142183817vw;
-    width: 280px;
+    width: 22vw;
     top:71.6vh;
    
 }
@@ -529,7 +531,43 @@ top:128.9223vh;
     }
 #hope{display:inline-block;}
 
+
+@media only screen and (max-width: 1147px) {
+
+#portfolio-header{
+display:none;
+}
+
+.side-title{display:none;}
+
+#blue-and-white{display:none;}
+#blue-and-white2{display:none;}
+
+
+.project-info{
+    position:absolute;
+    z-index:10;
+}
+
+.project-title{
+    position:absolute;
+    top:460;
+    z-index:10;
+}
+#arrows{z-index:10;
+    top:300;
+}
+
+.side-title{display:none !important;}
+
+
+}
     @media only screen and (max-width: 600px) {
+
+        #portfolio-header{
+            display:initial;
+            }
+
 
         .big-project-photo{
             height:250px; 
@@ -558,21 +596,15 @@ top:128.9223vh;
             overflow-y: hidden;
             scroll-behavior: none;
         }
-        #arrows{  
-            position:relative;
-            margin-left:0;
-            bottom:0;
-            z-index:5;
-            top:-200;
-            left:300px;
+        #arrows{
+            position:absolute;
             display:grid;
-                                    
-                                    
-        }     
-        
+            margin-top:0vh;
+            margin-left:60vw;
+        }
         .section2{
             position:relative;
-            bottom:200
+            bottom:160;
         }
 
 
@@ -593,7 +625,7 @@ top:128.9223vh;
 
     }
 
-        .logos{margin-top:2px;
+        .logos{margin-top:200px;
         margin-left:64px;
         display:none;
         height:220px;
@@ -602,13 +634,9 @@ top:128.9223vh;
 
         #cli-logo{position:none;
             /* right:100px; */
-            top:250;
+            top:-40;
             z-index:0;
             }
-        #this-logo{
-            top:250px;
-
-        }
         #poke-logo{right:240px;
         }
         

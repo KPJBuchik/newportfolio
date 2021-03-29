@@ -59,7 +59,6 @@
         image.style.transform = "rotate(" + -16 + "deg)";
         image2.style.transform = "rotate(" + -16 + "deg)";
 
-        $(".section2").css("top", "200px")
 
 
         // $("#container-911").css("margin-top", "11vh");
