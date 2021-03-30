@@ -683,5 +683,12 @@ margin-bottom:40px;}
                       
         
     }
+
+    .project-description{ 
+        position:relative;
+        margin-left:1.25vw;
+        text-align: left;
+        top:10;
+        }
         
 }
