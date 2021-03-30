@@ -28,8 +28,7 @@ margin-top:-60vh;
 
 #sandwich{ 
 position:fixed;
-height: 5%;
-
+height: 5vh;
 margin-left: 79vw;
 margin-top: 2vh;
 cursor: pointer;
@@ -529,7 +528,7 @@ top:128.9223vh;
 #hope{display:inline-block;}
 
 
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 1250px) {
 .project-description{ top:100}
 
 #portfolio-header{
