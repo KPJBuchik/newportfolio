@@ -12,6 +12,7 @@
 
 
 
+
     
     function scrollRotate() {
         let image = document.getElementById("chickenhawk");
@@ -32,6 +33,14 @@
         let newArrow = document.getElementById("chickenhawk2")
         image.style.display = "none"
         newArrow.style.display = "inherit"
+        // scrollDiv()
+
+
+        image.style.transform = "rotate(" + 45 + "deg)";
+        newArrow.style.transform = "rotate(" + 45 + "deg)";
+        
+
+
 
     }
     function replace2() {
@@ -41,15 +50,19 @@
         newArrow.style.display = "none"
     }
 
-
+    function scrollDiv(){
+        document.getElementById("pagescroll").scrollTop += 2000;;
+    }
     $("#chickenhawk").on("click", function () {
         let image = document.getElementById("chickenhawk");
         let image2 = document.getElementById("chickenhawk2");
+ 
+
 
         image.style.transform = "rotate(" + 45 + "deg)";
         image2.style.transform = "rotate(" + 45 + "deg)";
 
-
+   
 
     })
     $("#chickenhawk2").on("click", function () {
@@ -75,6 +88,9 @@
 
     document.getElementById("portfolioEvent").addEventListener("click", function () { setTimeout(replace, 200) })
 
+    document.getElementById("portfolioEvent").addEventListener("click", function () { setTimeout(replace, 200) })
+    document.getElementById("portfolio-side-link").addEventListener("click", function () { setTimeout(replace, 200) })
+
     document.getElementById("chickenhawk").addEventListener("click", function () { setTimeout(replace, 200) });
 
 
@@ -87,35 +103,6 @@
         $("#resumemodal").modal('hide');
     });
 
-
-
-
-
-
-    if ($(window).width() >= 800) {
-
-        $("#chickenhawk2").on("click", function () {
-    
-            $("#portfolio-header").css("bottom", "-27vh");
-     
-        })
-
-
-
-
-
-    }
-
-
-        $("#chickenhawk2").on("click", function () {
-    
-            $("#scrollable-div").css("margin-top", "5vh");
-    
-    
-            
-    
-        })
-    
 
 
 
@@ -206,7 +193,6 @@
 
             if (scroll >= 150) {
 
-                $("#scrollable-div").css("margin-bottom", "400px")
 
 
                 $("#this-big").css("height", "initial")
@@ -420,6 +406,7 @@
 
                 $("#up-this").css("display", "none");
                 $("#up-cli").css("display", "none");
+                $("#up-tune").css("display", "inherit")
 
 
                 $("#down-cli").css("display", "inherit");

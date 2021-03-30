@@ -109,7 +109,7 @@
               <a data-bs-toggle="modal" data-bs-target="#aboutmodal" data-bs-target="#sidebarModal"
                 class="side-link">ABOUT</a>
               <a data-bs-toggle="modal" data-bs-target="#resumeModal" class="side-link">RESUME</a>
-              <a href="#anchor-point" class="side-link">PORTFOLIO</a>
+              <a href="#anchor-point" id="portfolio-side-link" class="side-link">PORTFOLIO</a>
               <a href="https://github.com/KPJBuchik" target="_blank" class="side-link">GITHUB</a>
               <a class="side-link" target="_blank" href="https://www.linkedin.com/in/kevin-buchik/">LINKEDIN</a>
               <div id="contact">
@@ -126,14 +126,17 @@
     </div>
     
     <div class="section section2">
+
       <img id="blue-and-white" src="assets/whiteandblue.png">
       <img id="blue-and-white2" src="assets/whiteandblue.png">
 
       <div id="portfolio-header">
+        <a id="anchor-point"></a>
+
         <h1 id="title2">PORTFOLIO</h1>
+
       </div>
       
-      <!-- <img id="banner" src="assets/whiteandblue.png"> -->
       <div class="project-description" id="tune-description">
 
         <h3 id="tune-title" class="project-title">TUNE ALMANAC</h3>
@@ -152,22 +155,23 @@
             authentication. Built with MongoDB and ReactJS.</p>
           <p class="project-ptag" id="p-poke">Group project for the University of Arizona Coding Bootcamp. Built using
             JQuery, Handlebars.js, and MySQL.</p>
-
-
-
-
-          <div id="project-links">
             <div id="project-links">
-              <a id ="github-link" target="_blank" href="https://github.com/JayG92/thissocialmedia"> <img class="github"
-                  src="assets/github-vector.png"></a>
-              <a  id="link-link" target="_blank" href="https://thissocial.herokuapp.com/"><i class="fas fa-link"></i></a>
-            </div>
-          </div>
+            <a id ="github-link" target="_blank" href="https://github.com/JayG92/thissocialmedia"> <img class="github"
+              src="assets/github-vector.png"></a>
+          <a  id="link-link" target="_blank" href="https://thissocial.herokuapp.com/"><i class="fas fa-link"></i></a>
         </div>
+          </div>
 
 
 
 
+
+
+          
+          <img id="tune-logo" class="logos" src="assets/tune-logo.png">
+          <img id="this-logo" class="logos" src="assets/this-logo.png">
+          <img id="cli-logo" class="logos" src="assets/cli-logo.png">
+          <img id="poke-logo" class="logos" src="assets/poke-logo.png">
 
 
 
@@ -177,7 +181,7 @@
 
 
         <div id="arrows">
-          <a href="#tune-up"><img id="up-tune" class="up-click" src="assets/up-arrow.png"></a>
+          <a href="#tune-up"></a><img id="up-tune" class="up-click" src="assets/up-arrow.png"></a>
           <a href="#cli-up"><img id="up-cli" class="up-click" src="assets/up-arrow.png"></a>
           <a href="#this-up"><img id="up-this" class="up-click" src="assets/up-arrow.png"></a>
 
@@ -186,14 +190,13 @@
           <a href="#cli-anchor"><img id="down-cli" class="down-click" src="assets/down-arrow .png"></a>
           <a href="#this-anchor"><img id="down-this" class="down-click" src="assets/down-arrow .png"></a>
           <a href="#poke-anchor"><img id="down-poke" class="down-click" src="assets/down-arrow .png"></a>
+
         </div>
-        <img id="tune-logo" class="logos" src="assets/tune-logo.png">
-        <img id="this-logo" class="logos" src="assets/this-logo.png">
-        <img id="cli-logo" class="logos" src="assets/cli-logo.png">
-        <img id="poke-logo" class="logos" src="assets/poke-logo.png">
 
 
 
+
+      </div>
 
         <div id="portfolio-pics">
 
@@ -215,6 +218,7 @@
             <div id="hope">
             <img id="poke-big" class="big-project-photo" src="assets/poke-big.png">
             <h3 id="poke-side" class="side-title">POKETRON</h3>
+
           </div>
 
 
@@ -222,13 +226,9 @@
 
 
           </div>
-        </div>
-      </div>
 
 
-
-      <a id="anchor-point"></a>
-      <!-- <img id="console" src="assets/console.png"> -->
+          <!-- <img id="console" src="assets/console.png"> -->
     </div>
   </div>
 

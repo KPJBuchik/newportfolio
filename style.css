@@ -4,42 +4,36 @@ font-family:'Barlow', sans-serif;
 color:white;
 }
 
-#portfoliothingy{display:none;}
 
 html {
     scroll-behavior: smooth;
-     /* overflow-y:hidden; */
-    /* overflow-x:hidden;  */
-    /* overflow-y:hidden; */
   }
 
 
 
 
 #logo{
-        height:19.3447vh;
-        margin:1.57vw;
-        
-        
+height:19.3447vh;
+margin:1.57vw;
    
     }
 
 #recordplayer{
-    height:44.93758vh;
-    width:flex;
+height:44.93758vh;
+width:flex;
 position:absolute;
 margin-left:52vw;
 margin-top:-60vh;
 }
 
 #sandwich{ 
-    position:fixed;
-    height: 5%;
+position:fixed;
+height: 5%;
 
-    margin-left: 79vw;
-    margin-top: 2vh;
-    cursor: pointer;
-    z-index:2;
+margin-left: 79vw;
+margin-top: 2vh;
+cursor: pointer;
+z-index:2;
 
 }
 #sandwich:hover{
@@ -101,7 +95,7 @@ height:9.708vh;}
     position: relative;
     bottom: 57.306590257879655vh;
 
-    height:25vh;}
+    min-height:25vh;}
 
 #arrow:hover{
     opacity:.7;
@@ -192,7 +186,6 @@ text-decoration:underline;}
 
 .github{   filter:invert(100%);
     height: 30px;
-    margin-right:0.390vw;
 color:white;
 }
     .github:hover{cursor:pointer;
@@ -208,9 +201,9 @@ color:white;}
 .fa-link:hover{cursor:pointer;
 opacity:.7}
 
-    #project-links{margin-top:0.7163323782234957vh;
-        margin-left:0px;
+    #project-links{
         display: flex;
+        margin-top:4px;
     }
 .modal-body{  text-align: center;
 }
@@ -223,11 +216,11 @@ opacity:.7}
 
 .big-project-photo{
   float:right;
-  margin-right:2.34375vw;
   margin-top:11.461318051575931vh;
   height:11vh;
   width:auto;
-  
+  object-fit: contain; 
+  margin-right:.5vw;
 
 
   
@@ -312,19 +305,20 @@ text-align: left;
 body{
     margin: 0;
     padding: 0;
+    
 }
 
  #pagescroll{
     width: 100vw;
     height: 100vh;
+    max-height:122.6361031vh;
     position: relative;
     overflow: hidden;
     scroll-behavior:smooth;
 } 
 .section{
-    height: 100vh;
+    min-height: 100vh;
     width: 100vw;
-    transition: transform 0.3s ease-out;
 }
 
 
@@ -341,12 +335,9 @@ body{
 
 
 
-#banner{position:relative;
-z-index:-1;}
 
 
 
-#space{height:50px;}
 
 
 
@@ -354,14 +345,15 @@ z-index:-1;}
 float:right;
 margin-bottom:42.97vh;
 position:relative;
+min-height:93.12320vh;
 }
 
 #portfolio-header{
 position:relative;
-bottom:-22vh;
+bottom:-24vh;
 margin-left:0.625vw;
 z-index:-10;
-height:10vh;
+min-height:10vh;
 
 }
 
@@ -370,14 +362,12 @@ height:10vh;
 #scrollable-div{display:grid;
     scroll-behavior:smooth;
     
-    position:relative;
     overflow-y: scroll;
     /* overflow-x: hidden; */
         /* overflow-y: hidden; */
 
     margin-right:3.125vw;
-    /* margin-top:100px; */
-    margin-bottom:0px;
+    margin-top:-20px;
     max-height:93.12320vh;
     z-index:0;
     
@@ -390,6 +380,7 @@ height:10vh;
 
   ::-webkit-scrollbar {
     width: 1px;
+
 
   }
   
@@ -428,6 +419,7 @@ margin-left:0;}
 }
 
 .down-click{
+
 cursor:pointer;
 display:none;
 margin-top:1vh;}
@@ -437,29 +429,34 @@ margin-top:1vh;}
 
 
 .up-click{
+    position:relative;
     cursor:pointer;
     }
 
 
-    .up-click:hover{
-        cursor:pointer;
-        opacity:.4
+.up-click:hover{
+
+cursor:pointer;
+opacity:.4
         }
 
-        .down-click:hover{
-            cursor:pointer;
-            opacity:.4
+ .down-click:hover{
+ cursor:pointer;
+opacity:.4
             }
 #arrows{
     position:absolute;
     display:grid;
-    margin-top:24vh;
-    margin-left:22vw;
+    left:22vw;
+    top:40vh;
+  
 }
 
 
 
-.logos{margin-top:17vh;
+.logos{
+position:absolute;
+margin-top:17vh;
 margin-left:64px;
 display:none;
 height:19vh;
@@ -532,20 +529,19 @@ top:128.9223vh;
 #hope{display:inline-block;}
 
 
-@media only screen and (max-width: 1147px) {
+@media only screen and (max-width: 1200px) {
+.project-description{ top:100}
 
 #portfolio-header{
-display:none;
-}
+margin-bottom:40px;}
 
 .side-title{display:none;}
 
 #blue-and-white{display:none;}
 #blue-and-white2{display:none;}
 
-
+#scrollable-div{overflow-x:hidden;}
 .project-info{
-    position:absolute;
     z-index:10;
 }
 
@@ -555,7 +551,10 @@ display:none;
     z-index:10;
 }
 #arrows{z-index:10;
-    top:300;
+    top:460;
+    left:250;
+    
+    
 }
 
 .side-title{display:none !important;}
@@ -574,16 +573,11 @@ display:none;
             width:400px;  
             position:relative;  
             top:20;
-            display:none;
+            opacity:0;
     
                         }
 
                             
-        #tune-big{margin-right:400px;
-            height:initial;
-                
-            
-        }
               
                     
        
@@ -597,14 +591,15 @@ display:none;
             scroll-behavior: none;
         }
         #arrows{
+            top:260;
             position:absolute;
             display:grid;
-            margin-top:0vh;
-            margin-left:60vw;
+            left:300;
+     
         }
         .section2{
             position:relative;
-            bottom:160;
+            bottom:0
         }
 
 
@@ -625,20 +620,11 @@ display:none;
 
     }
 
-        .logos{margin-top:200px;
+        .logos{margin-top:0px;
         margin-left:64px;
-        display:none;
         height:220px;
         z-index:1;
             }
-
-        #cli-logo{position:none;
-            /* right:100px; */
-            top:-40;
-            z-index:0;
-            }
-        #poke-logo{right:240px;
-        }
         
 
         #chickenhawk{left:-79px;
