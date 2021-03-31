@@ -29,8 +29,8 @@ margin-top:-60vh;
 #sandwich{ 
 position:fixed;
 height: 5vh;
-margin-left: 79vw;
-margin-top: 2vh;
+right:1vw;
+top: 2vh;
 cursor: pointer;
 z-index:2;
 
@@ -106,8 +106,7 @@ height:9.708vh;}
 #chickenhawk{   height: 24vh;
     position: fixed;
     bottom: 0;
-    margin-left: 89vw;
-    margin-right:0.274941084vw;
+    right:0.274941084vw;
     z-index:2;
 
 }
@@ -116,8 +115,7 @@ height:9.708vh;}
     position: fixed;
     bottom: 0;
     display:none;
-    margin-left: 89vw;
-    margin-right:0.274941084vw;
+    right:0.274941084vw;
 
     z-index:16;
 
@@ -448,7 +446,7 @@ opacity:.4
     height:19vh;
     right:15.6vw;
     top:2.86;
-    z-index:10;
+    z-index:-4;
     }
 
 
@@ -459,7 +457,7 @@ opacity:.4
 z-index:2;}
 
 
-#cli-small2{display:none;}
+#li-small2{display:none;}
 #this-small2{display:none;}
 
 #up-cli{display:none;}
@@ -526,11 +524,11 @@ right:10vw;}
 .project-info{width:300px;}
 #tune-big{margin-bottom:100px;}
 
-#chickenhawk{left:-79px;
+#chickenhawk{
     height:150px;
 
 }
-#chickenhawk2{left:-79px;
+#chickenhawk2{
     height:150px;
 
 }
@@ -571,129 +569,5 @@ right:10vw;}
 
 #title2{font-size:9vh;
 }
-/* 
-        #portfolio-header{
-            display:initial;
-            }
-
-
-
-
-                            
-              
-                    
-       
-
-  
-
-         #scrollable-div{
-            margin-top:24px;
-            overflow:hidden;
-            overflow-y: hidden;
-            scroll-behavior: none;
-        }
-        #arrows{
-            top:260;
-            position:absolute;
-            display:grid;
-            left:300;
-     
-        }
-        .section2{
-            position:relative;
-            bottom:0
-        }
-
-
-        #blue-and-white{
-            display:none;
-        }
-                                
-        #blue-and-white2{z-index:-10;
-            display:none;
-                
-            
-        }
-        .project-info
-        {font-size:16px;
-        width:300px;
-        margin-lefT: 0px;
-        margin-right:0px;
-
-    }
-
-        .logos{margin-top:0px;
-        margin-left:0px;
-        height:220px;
-        z-index:1;
-            }
-        #poke-logo{
-            margin-top:40px;
-        }
-
-        #chickenhawk{left:-79px;
-            height:150px;
-    
-        }
-        #chickenhawk2{left:-79px;
-            height:150px;
-        
-        }
-        #menu{
-            z-index:5;
-            position:relative;
-            font-size:12px;
-            margin-left:14px;
-            bottom:32px;
-
-        }         
-        #kevin{
-            margin-top:40px;
-            font-size:12vh;
-            display:flex
-        }
-         #buchik{margin-top:-20px;
-            font-size:12vh;
-        }
-
-        #title{margin-top:-64px;
-            color: white;
-            margin-left: 0;
-            display:grid;
-            
-        }
-
-
-        #job{
-            margin-top:4px;
-            margin-left:8px;
-            font-size:8vh;
-        }
-
-        #logo{
-            height:24vh;;
-            margin:1.57vw;
-            
-            
-       
-        }
-
-
-        #sandwich{ 
-            position:fixed;
-            height: 5%;
-        
-            margin-left: 42vw;
-                      
-        
-    }
-
-    .project-description{ 
-        position:relative;
-        margin-left:1.25vw;
-        text-align: left;
-        top:10;
-        
-        } */
         
 }
