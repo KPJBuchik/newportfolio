@@ -567,7 +567,10 @@ right:10vw;}
     margin-left:14px;
     bottom:32px;
 
-}         
+}    
+
+#title2{font-size:9vh;
+}
 /* 
         #portfolio-header{
             display:initial;
