@@ -372,8 +372,8 @@ $(function () {
 
             $("#down").css("display", "inherit")
 
-            $("#github-link").attr("href", "https://github.com/KPJBuchik/Bamazon")
-            $("#link-link").attr("href", "https://github.com/KPJBuchik/Bamazon")
+            $("#github-link").attr("href", "https://github.com/KPJBuchik/weatherApp")
+            $("#link-link").attr("href", "https://enigmatic-temple-47946.herokuapp.com/")
             $("#scroll-flair").css("opacity", "0")
 
 
@@ -509,9 +509,3 @@ $(function () {
 
 
 
-// do a click anchor point for the scrollable-div
-// you can clean it up like that
-// just put more space between the pictures
-// up and down arrows
-// change the position of the small images on click maybe
-// diagram first kevin!!!!
