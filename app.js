@@ -85,7 +85,7 @@ function replace() {
     newArrow.style.transform = "rotate(" + 45 + "deg)";
 
 
-   
+
 
 }
 function replace2() {
@@ -105,7 +105,7 @@ $("#chickenhawk").on("click", function () {
     //     behavior: 'smooth'
 
     // })
-  
+
     let image = document.getElementById("chickenhawk");
     let image2 = document.getElementById("chickenhawk2");
 
