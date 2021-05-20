@@ -1,5 +1,5 @@
 
-
+//heres a problem that should be solved, subtitles on streaming movies where the subtitles are in the frame instead of the black bars.
 
 window.onscroll = function () {
     scrollRotate();
