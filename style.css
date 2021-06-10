@@ -515,6 +515,7 @@ top:128.9223vh;
     @media only screen and (max-width: 804px) {
 .side-title{display:none !important;}
 
+#ribbon{margin-top:-270px;}
 #poke-big{margin-bottom:400px;}
 .logos{display:none !important;}
 .arrows{
@@ -572,5 +573,13 @@ right:10vw;}
         
 .project-ptag{display:none;
 width:50vw;;}
+
+.home-link{margin-top:5vh;}
+
+#kevin-sidemenu{font-size:2vh;}
+#email{font-size:1.5vh;
+margin-left:3vw;}
+#scrollable-div{    overflow-x: hidden;
+     overflow-y: hidden;}
 
 }
