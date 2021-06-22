@@ -426,8 +426,8 @@ $(function () {
 
             $("#down").css("display", "none")
 
-            $("#github-link").attr("href", "https://github.com/KPJBuchik/Project2")
-            $("#link-link").attr("href", "https://rocky-earth-06157.herokuapp.com/")
+            $("#github-link").attr("href", "https://github.com/KPJBuchik/space-knight2")
+            $("#link-link").attr("href", "https://kpjbuchik.github.io/space-knight2/")
 
 
 
